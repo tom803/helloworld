@@ -10,7 +10,7 @@ public class JunitHelloWorld {
 	
 	@Test
 	public void isHelloText() {
-		System.out.println("Test");
+		System.out.println("Test HelloWolrd");
 		HelloWorld helloWorld = new HelloWorld();
 		assertTrue("Hello failed.", helloWorld.toString().equals("Hello world!"));
 	}
